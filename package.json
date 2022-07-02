@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "name": "learn-typescript",
+  "description": "Learn Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoitv/ts-tutorial.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "khoi tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khoitv/ts-tutorial/issues"
+  },
+  "homepage": "https://github.com/khoitv/ts-tutorial#readme"
+}
