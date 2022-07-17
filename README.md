@@ -1,6 +1,6 @@
 # ts-tutorial
 
-# Lession 1:
+# Lesson 1:
     - Instal extensions: Bracket Pair Colorizer
         + Code Runner
         + JavaScript (ES6) code snippets
@@ -27,7 +27,7 @@
             `tsc index.ts`: Compile only
             `ts-node index.ts`: Compile and run
     - Try with code runner
-# Lession 2:
+# Lesson 2:
     - Init project: `npm --init`
     - Install Unit test
         `npm install --save-dev jest typescript ts-jest @types/jest`
@@ -37,4 +37,11 @@
     - Write unit test
     - `Ctrl + Shift + P` ==> `Jest: Start All Runners`
 
-
+# Lesson 3:
+    - Static type checking
+    - Go to tsconfig.json
+        `"outDir": "./dist",`
+        `"declaration": true,`
+        `allowJs": true,`
+        `"checkJs": true,`   
+        `"noEmitOnError": true,`
